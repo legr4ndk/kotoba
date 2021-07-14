@@ -7,7 +7,7 @@ const server = http.createServer((req, resp) => {
     const addr = new URL("http://360.com" + req.url)
     const param = addr.searchParams
     const method = param.get("method")
-    let rd = Math.ceil(Math.random() * 11)
+    let rd = Math.ceil(Math.random() * 10)
     let sql = `SELECT word FROM Words WHERE id=${rd}`;
 
     resp.statusCode = 200
