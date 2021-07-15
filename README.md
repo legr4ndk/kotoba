@@ -29,6 +29,8 @@
 
 ### Docker
 
+感谢[@nc-77](https://github.com/nc-77) 提供的docker部署
+
 ```
 docker-compose up
 ```
